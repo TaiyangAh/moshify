@@ -629,11 +629,31 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
-/*Block Plans*/
+/* Block Plans*/
 .block-plans .grid {
   gap: 8rem 4rem;
 }
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+/* Block Featrues */
+.feature__heading {
+  margin: 1rem 0;
+}
+.feature {
+  gap: 4rem 3rem;
+  margin: 10rem 0;
+}
+.feature__header {
+  letter-spacing: 0.6px;
+  word-spacing: 1.8px;
+  line-height: 1.8;
+  margin-bottom: 8rem;
+}
+.feature__image {
+  width: 100%;
+}
+.feature__content {
+  padding: 1.5rem;
 }
