@@ -690,3 +690,17 @@ h3 {
     max-width: 700px;
   }
 }
+/* Block Testimonials */
+.block-testimonial header {
+  margin-bottom: 4rem;
+  line-height: 4rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.block-testimonial .quote {
+  align-self: center;
+  line-height: 4rem;
+}
+.block-testimonial .grid {
+  gap: 3rem;
+}
